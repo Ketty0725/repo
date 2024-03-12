@@ -1,0 +1,15 @@
+Package: com.kitten.tweaktool
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Kitten
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.kitten.tweaktool_1.0.0_iphoneos-arm64.deb
+Size: 8850
+MD5sum: 7f061d1fdab0d1ecc3f0f10e93bf446a
+SHA1: ffe7562d26660bef5287e14d18498ab0f7bd7cf3
+SHA256: ecdb47ea1b4e96791aea242c070862ca62e29b6322189437cc8e4ce9406893ba
+Section: Tweaks
+Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
+Author: Kitten
+Name: TweakTool
+
