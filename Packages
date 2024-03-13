@@ -1,15 +1,15 @@
 Package: com.kitten.tweaktool
-Version: 1.1.0
+Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/com.kitten.tweaktool_1.1.0_iphoneos-arm64.deb
-Size: 9064
-MD5sum: ecb4f182adcaed609d6b6cf2a2408e84
-SHA1: 5d3285613e14d5436cf80a27ab6b4367312a249e
-SHA256: 586ee934404b361c402484aa3ef9d361a0d72f5e496195e699e0cfbe35528325
+Depends: sudo, bash (>= 5.0.3-2), firmware (>= 11.0), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1), lsof
+Filename: debs/com.kitten.tweaktool_1.2.0_iphoneos-arm64.deb
+Size: 9932
+MD5sum: d453f6be028fcfc0430addbebae2f90e
+SHA1: f0cba7ffa164c22b685f0c52bce401ac4036058d
+SHA256: b232cac47d0a40e0837b7baeda320ecdb4d9dd82d33a4b144bd43305cd1c032d
 Section: Tweaks
-Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具                                                                                                                                                                 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可                                                                                                                                                                 更新日志：                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. 恢复结束后的重启用户空间改为注销                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     2. 备份插件前进行包完整性检查，修补包缺失信息
 Author: 预言小猫
 Name: TweakTool
 
