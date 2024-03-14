@@ -2,7 +2,7 @@
 	"minVersion": "0.1",
 	"tabs": [
 		{
-			"tabname": "插件介绍(Details)",
+			"tabname": "插件介绍",
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
@@ -52,7 +52,7 @@
 			"class": "DepictionStackView"
 		},
 		{
-			"tabname": "更新日志(Changelog)",
+			"tabname": "更新日志",
 			"views": [
 				{
 					"title": "1.4.0",
