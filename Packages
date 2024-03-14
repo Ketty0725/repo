@@ -1,16 +1,61 @@
 Package: com.kitten.tweaktool
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.kitten.tweaktool_1.1.0_iphoneos-arm64.deb
+Size: 9064
+MD5sum: ecb4f182adcaed609d6b6cf2a2408e84
+SHA1: 5d3285613e14d5436cf80a27ab6b4367312a249e
+SHA256: 586ee934404b361c402484aa3ef9d361a0d72f5e496195e699e0cfbe35528325
+Section: Tweaks
+Description: Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
+Author: 预言小猫
+Name: TweakTool
+
+Package: com.kitten.tweaktool
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), firmware (>= 11.0), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1), lsof
+Filename: debs/com.kitten.tweaktool_1.2.0_iphoneos-arm64.deb
+Size: 9932
+MD5sum: d453f6be028fcfc0430addbebae2f90e
+SHA1: f0cba7ffa164c22b685f0c52bce401ac4036058d
+SHA256: b232cac47d0a40e0837b7baeda320ecdb4d9dd82d33a4b144bd43305cd1c032d
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具                                                                                                                                                                 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可                                                                                                                                                                 更新日志：                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. 恢复结束后的重启用户空间改为注销                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     2. 备份插件前进行包完整性检查，修补包缺失信息
+Author: 预言小猫
+Name: TweakTool
+
+Package: com.kitten.tweaktool
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.kitten.tweaktool_1.3.0_iphoneos-arm64.deb
+Size: 9994
+MD5sum: 059bbe4749fd48af835895c0e5c6714c
+SHA1: 1a09e998c21e97ea75be0942fb11cc94bcbc524d
+SHA256: ea907927cf09f968f9a3b51a1830c2604a7b8e2f1b42aa99f2018bcdd8769d6e
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具                                                                                                                                                                 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可                                                                                                                                                                 更新日志：                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1. 恢复结束后的重启用户空间改为注销                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     2. 备份插件前进行包完整性检查，修补包缺失信息                                                                                                                                                                 3. 删除不必要的依赖，已安装1.2.0版本的请手动卸载lsof依赖
+Author: 预言小猫
+Name: TweakTool
+
+Package: com.kitten.tweaktool
 Version: 1.4.0
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: debs/com.kitten.tweaktool_1.4.0_iphoneos-arm64.deb
-Size: 9942
-MD5sum: 71d19c3a2e23579f1daf8a7b2ccd8529
-SHA1: 3fbaf5884a4f797ef851b66753d644d58db9b71a
-SHA256: faa43e463850504e81d483860fe6630bfd3f76fc216a2c897285c2a592948f01
+Size: 9864
+MD5sum: e5a0b8760db078bcbcdf4a44af3340c6
+SHA1: 4ff9221f1f7561da880c299c9e08af1a91becd12
+SHA256: fb8e5cd4901845daad4fc6e25f17917cadfd8ffa5b21ef99fda55b0ea20ab465
 Section: Tweaks
-Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具                                                                                                                                                                 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具
 Author: 预言小猫
-Name: TweakTool
+Name: 一键备份和恢复工具-Rootless
 Sileodepiction: https://Ketty0725.github.io/repo/depictions/native/com.kitten.tweaktool/depiction.json
 
