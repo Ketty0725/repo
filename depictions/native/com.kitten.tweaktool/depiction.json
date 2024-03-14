@@ -93,6 +93,10 @@
 					"useSpacing": false,
 					"useBottomMargin": false,
 					"class": "DepictionMarkdownView"
+				},
+				{
+				  "spacing": 20,
+				  "class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
