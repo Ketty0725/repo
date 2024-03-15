@@ -17,7 +17,7 @@
 				},
 				{
 					"title": "版本",
-					"text": "1.4.0",
+					"text": "1.5.0",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"title": "更新时间",
-					"text": "2024/3/14",
+					"text": "2024/3/15",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -54,6 +54,26 @@
 		{
 			"tabname": "更新日志",
 			"views": [
+				{
+					"title": "1.5.0",
+					"useBoldText": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\n\t\u2023 改进打包算法，实现多进程并发机制，备份时间相较于上一版本节约50%左右\n\t\u2023 建议所有用户更新，有问题随时反馈",
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2024/3/15</small>",
+					"useRawFormat": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
 				{
 					"title": "1.4.0",
 					"useBoldText": true,
