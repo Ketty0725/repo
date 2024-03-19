@@ -30,3 +30,19 @@ Author: 预言小猫
 Name: 一键备份和恢复工具-Rootless
 Sileodepiction: https://Ketty0725.github.io/repo/depictions/native/com.kitten.tweaktool/depiction.json
 
+Package: com.kitten.tweaktool
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.kitten.tweaktool_1.6.0_iphoneos-arm64.deb
+Size: 10814
+MD5sum: a6cc9c229de1747d375ac85947ef404c
+SHA1: 5bd200cd0551c3a8bb10f8c6d97a7d0518b587fb
+SHA256: 9a6f69d6d3f8640e1fbe597af1ca9ae18a9286525cff13f791fc2ac2cbd1f026
+Section: Tweaks
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具
+Author: 预言小猫
+Name: 一键备份和恢复工具-Rootless
+Sileodepiction: https://Ketty0725.github.io/repo/depictions/native/com.kitten.tweaktool/depiction.json
+

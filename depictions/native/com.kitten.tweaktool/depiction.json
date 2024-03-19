@@ -17,7 +17,7 @@
 				},
 				{
 					"title": "版本",
-					"text": "1.5.0",
+					"text": "1.6.0",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"title": "更新时间",
-					"text": "2024/3/14",
+					"text": "2024/3/19",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -54,6 +54,26 @@
 		{
 			"tabname": "更新日志",
 			"views": [
+				{
+					"title": "1.6.0",
+					"useBoldText": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\u2023 新增备份归档，以时间命名，格式如：备份_2024-05-20_13:14:00，建议重新进行备份，或者手动将原备份文件转移至上述格式命名的文件夹中\n\t\u2023 提供恢复某一次备份的选择，用户可以从备份列表中自行选择一个进行恢复\n\t\u2023 优化权限设置",
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2024/3/19</small>",
+					"useRawFormat": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
 				{
 					"title": "1.5.0",
 					"useBoldText": true,
