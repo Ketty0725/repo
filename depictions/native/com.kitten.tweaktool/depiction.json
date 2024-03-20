@@ -17,7 +17,7 @@
 				},
 				{
 					"title": "版本",
-					"text": "1.6.0",
+					"text": "1.6.1",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"title": "更新时间",
-					"text": "2024/3/19",
+					"text": "2024/3/20",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -54,6 +54,26 @@
 		{
 			"tabname": "更新日志",
 			"views": [
+				{
+					"title": "1.6.1",
+					"useBoldText": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\n\t\u2023 修改备份命名规范，增加Xina和Dopamine前缀，格式如：Xina备份_2024-05-20_13:14:00，方便用户管理不同越狱环境下的备份存档",
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2024/3/20</small>",
+					"useRawFormat": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
 				{
 					"title": "1.6.0",
 					"useBoldText": true,
