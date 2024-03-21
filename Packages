@@ -84,10 +84,10 @@ Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: debs/com.kitten.tweaktool_1.6.3_iphoneos-arm64.deb
-Size: 11080
-MD5sum: 46b612944f05800406ca92ad2c663681
-SHA1: 52ac79b50ebf1ac751a8415a5e71016a250ccf1e
-SHA256: 415d81f5382f305a3b361426de956e97e0837165ca4099c19ff2f9daf5ed6900
+Size: 11064
+MD5sum: b111013df167eb19386aa4252195011f
+SHA1: bb90c3539f3a7983cf72f7fa7f466cc49daa32b3
+SHA256: c7fd72ded42758ad546cf6091526c31a3b32d37b3aee309110af1c687644bab4
 Section: Tweaks
 Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具
 Author: 预言小猫
