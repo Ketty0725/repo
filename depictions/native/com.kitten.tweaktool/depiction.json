@@ -6,7 +6,7 @@
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具\n## 使用方法：\nFilza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可"
+					"markdown": "适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具\n## 使用方法：\n①Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件\n②在MTerminal或NewTerm中输入\"sudo tweaktool\"命令运行"
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -17,7 +17,7 @@
 				},
 				{
 					"title": "版本",
-					"text": "1.6.4",
+					"text": "2.0.0-beta",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -27,7 +27,7 @@
 				},
 				{
 					"title": "更新时间",
-					"text": "2024/3/23",
+					"text": "2024/3/24",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -54,6 +54,26 @@
 		{
 			"tabname": "更新日志",
 			"views": [
+				{
+					"title": "2.0.0-beta",
+					"useBoldText": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\u2023 改进打包算法，实现多进程并发机制，备份时间相较于1代版本节约50%-70%左右\n\t\u2023 ⚠ 由于Xina环境存在不可抗力因素，此次更新暂时只适用于Dopamine越狱，Xina用户请谨慎更新\n\t\u2023 使用过程中若出现问题及时反馈，并回退到上一版本",
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2024/3/24</small>",
+					"useRawFormat": true,
+					"useSpacing": false,
+					"useBottomMargin": false,
+					"class": "DepictionMarkdownView"
+				},
 				{
 					"title": "1.6.4",
 					"useBoldText": true,
