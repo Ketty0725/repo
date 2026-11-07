@@ -14,8 +14,10 @@ for command_name in apt-ftparchive xz; do
   fi
 done
 
-name="${REPOSITORY_NAME:-$(basename "$repository_root")}"
-owner="${REPOSITORY_OWNER:-$name}"
+# The source's name and codename are fixed: 「小猫源」 and 「预言小猫」.
+# They do not follow the GitHub account or the repository's name.
+source_name="${REPOSITORY_SOURCE_NAME:-小猫源}"
+source_codename="${REPOSITORY_SOURCE_CODENAME:-预言小猫}"
 work_dir="$(mktemp -d "$repository_root/.repo-build.XXXXXX")"
 trap 'rm -rf -- "${work_dir:?}"' EXIT
 site_dir="$work_dir/site"
@@ -55,14 +57,14 @@ cp "$work_dir/Packages" "$work_dir/Packages.xz" "$work_dir/indexes/"
 # Release is written beside the indexes, never among them, so it does
 # not hash itself.
 apt-ftparchive \
-  -o APT::FTPArchive::Release::Origin="$owner" \
-  -o APT::FTPArchive::Release::Label="$name" \
+  -o APT::FTPArchive::Release::Origin="$source_name" \
+  -o APT::FTPArchive::Release::Label="$source_name" \
   -o APT::FTPArchive::Release::Suite="stable" \
   -o APT::FTPArchive::Release::Version="1.0" \
-  -o APT::FTPArchive::Release::Codename="$name" \
+  -o APT::FTPArchive::Release::Codename="$source_codename" \
   -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
   -o APT::FTPArchive::Release::Components="main" \
-  -o APT::FTPArchive::Release::Description="Packages from $owner" \
+  -o APT::FTPArchive::Release::Description="$source_name" \
   release "$work_dir/indexes" > "$work_dir/Release"
 
 if ((${#packages[@]} > 0)); then
